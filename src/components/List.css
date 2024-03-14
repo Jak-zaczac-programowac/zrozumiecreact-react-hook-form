@@ -1,0 +1,22 @@
+ul {
+    display: inline-block;
+    padding: 0;
+    margin: 24px;
+    list-style-type: none;
+}
+
+.item {
+    display: block;
+    border: solid 2px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.item-tel,
+.item-email,
+.item-nip {
+    display: block;
+    font-size: 12px;
+    margin: 4px 0;
+}

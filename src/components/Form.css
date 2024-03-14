@@ -1,0 +1,30 @@
+form {
+    display: inline-block;
+    border: solid 2px;
+    padding: 32px;
+    border-radius: 8px;
+    font-weight: 500;
+    width: 400px;
+}
+
+form span {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+button {
+    background: #fff;
+    border: solid 2px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+}
