@@ -1,11 +1,10 @@
 ul {
     display: inline-block;
     padding: 0;
-    margin: 24px;
     list-style-type: none;
 }
 
-.item {
+.person {
     display: block;
     border: solid 2px;
     padding: 16px;
@@ -13,9 +12,17 @@ ul {
     margin-bottom: 24px;
 }
 
-.item-tel,
-.item-email,
-.item-nip {
+.person-name {
+    font-weight: 500;
+}
+
+.person-age {
+    font-weight: 400;
+}
+
+.person-tel,
+.person-email,
+.person-nip {
     display: block;
     font-size: 12px;
     margin: 4px 0;

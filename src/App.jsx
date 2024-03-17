@@ -1,11 +1,11 @@
 import { useState } from "react";
-import "./App.css";
 import { Form } from "./components/Form";
 import { List } from "./components/List";
 
+import "./App.css";
+
 const initialPeople = [
     {
-        id: 1,
         name: "Jan Kowalski",
         age: 30,
         tel: "+48 555666777",
@@ -13,7 +13,6 @@ const initialPeople = [
         nip: "0000000001",
     },
     {
-        id: 2,
         name: "Janina Kowalska",
         age: 25,
         tel: "+48 333222111",
@@ -25,14 +24,14 @@ function App() {
     const [people, setPeople] = useState(initialPeople);
 
     return (
-        <>
+        <div className="container">
             <Form
                 onAddPerson={(person) =>
                     setPeople((prevPeople) => [...prevPeople, person])
                 }
             />
             <List data={people} />
-        </>
+        </div>
     );
 }
 
