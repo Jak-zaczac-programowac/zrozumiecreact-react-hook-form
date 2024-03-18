@@ -16,7 +16,7 @@ export function Form({ onAddPerson }) {
             <input type="email" />
 
             <label htmlFor="isInvoiceRequired">
-                <input type="checkbox" />
+                <input type="checkbox" placeholder="Podaj NIP" />
                 Faktura VAT
             </label>
             <input />
