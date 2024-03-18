@@ -4,22 +4,26 @@ export function Form({ onAddPerson }) {
     return (
         <form autoComplete="false">
             <label htmlFor="name">Imię</label>
-            <input />
+            <input id="name" />
 
             <label htmlFor="age">Wiek</label>
-            <input type="number" />
+            <input id="age" type="number" />
 
             <label htmlFor="tel">Telefon</label>
-            <input type="tel" />
+            <input id="tel" type="tel" />
 
             <label htmlFor="email">E-mail</label>
-            <input type="email" />
+            <input id="email" type="email" />
 
             <label htmlFor="isInvoiceRequired">
-                <input type="checkbox" placeholder="Podaj NIP" />
+                <input
+                    id="isInvoiceRequired"
+                    type="checkbox"
+                    placeholder="Podaj NIP"
+                />
                 Faktura VAT
             </label>
-            <input />
+            <input id="nip" />
 
             <div className="footer">
                 <button>Dodaj</button>
