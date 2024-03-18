@@ -49,3 +49,8 @@ button {
     margin: 4px 0;
     color: #c31919;
 }
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
