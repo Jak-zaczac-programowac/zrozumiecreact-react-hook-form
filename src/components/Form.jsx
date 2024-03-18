@@ -2,7 +2,7 @@ import "./Form.css";
 
 export function Form({ onAddPerson }) {
     return (
-        <form>
+        <form autoComplete="false">
             <label htmlFor="name">Imię</label>
             <input />
 
