@@ -50,6 +50,10 @@ button {
     color: #c31919;
 }
 
+.footer .error {
+    width: 100%;
+}
+
 .title {
     font-size: 32px;
     font-weight: 700;
